@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+<div class="container">
+    <div class="header__wrapper">
+        <div class="header__logo">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div class="header__nav">
+            <ul>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Blog</li>
+                <li>Docs</li>
+                <li>Changelog</li>
+                <li>We're hiring</li>
+            </ul>
+        </div>
+        <div class="header__btn">
+            <button class="btn1">Login</button>
+        </div>
+    </div>
+</div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                <div class="hero__content">
+                    <h1 class="h1_hero">Always</h1>
+                    <h1 class="h1_hero2">Ready to Code.</h1>
+                    <p class="p_hero">Spin up fresh, automated dev environments</p>
+                    <p class="p_hero2">for each task, in the cloud, in seconds.</p>
+                    <div class="hero__content2">
+                       <button class="btn2">Try Now</button>
+                       <div class="p">
+                        <p>Open a workspace.</p>
+                        <p>Start from any Git context.</p>
+                       </div>
+                    </div>
+                    <img src="./img/company_logo.png" alt="">
+                </div>
+                <div class="hero__img">
+                    <img src="./img/hero_img.png" alt="">
+                </div>
+            </div>
+            </div>
+        
+        </section>
+        <section class="text">
+            <div class="container">
+                <h1 class="text_h1">Select project,</h1>
+                <p class="text_p">check dependencies, checkout branch, view</p>
+                <p class="text_p_2">readme.txt, install tools, run build, run test,</p>
+                <h1 class="text_h1_2">start coding.</h1>
+            </div>
+        </section>
+        <section class="code">
+            <div class="container">
+                <div class="code__wrapper">
+                    <div class="code__content">
+                        <h2>Think CI/CD for dev environments</h2>
+                        <p>We invented prebuilds so application code, configuration and infrastructure can all be stored as machine-executable code in your git repositories and applied to dev environments automatically and continuously.</p>
+                        <div class="btn_con">
+                            <button class="btn3">More on prebuilds</button>
+                            <button class="btn4">Documentation</button>
+                        </div>
+                    </div>
+                    <div class="code__img">
+                        <img src="./img/code.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="secure">
+            <div class="container">
+                <h2>Remote-first. Secure by design.</h2>
+               <img class="sec_img_1" src="./img/ren.png" alt="">
+                <p>You no longer need an over-powered laptop to code, Gitpod works just as smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes all source code and never stores it on insecure machines and networks.</p>
+      <img class="sec_img_2" src="./img/company.png" alt="">
+            </div>
+        </section>
+        <section class="swiper_sec">
+            <h2>Used by 400,000+ developers.</h2>
+             <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./img/sw1.png" alt=""></div>
+      <div class="swiper-slide"><img src="./img/sw2.png" alt=""></div>
+      <div class="swiper-slide"><img src="./img/sw3.png" alt=""></div>
+      <div class="swiper-slide"><img src="" alt=""></div>
+      <div class="swiper-slide"><img src="" alt=""></div>
+      <div class="swiper-slide"><img src="" alt=""></div>
+      <div class="swiper-slide"><img src="" alt=""></div>
+      <div class="swiper-slide"><img src="" alt=""></div>
+      <div class="swiper-slide"><img src="" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <img class="salom_img" src="./img/salom.png" alt="">
+        </section>
+        <section class="started">
+            <div class="container">
+                <h1 class="get">Get started now</h1>
+                <div class="started__wrapper">
+                   
+                    <div class="started__content">
+                        <h4>Connect Git repository</h4>
+                        <p class="p_tag">Select a Git provider to start with an existing project from any Git context.</p>
+                        <div class="div">
+
+                        
+                        <img  src="./img/gitlab.png" alt="">
+                        <img  src="./img/github.png" alt="">
+                        <img  src="./img/black.png" alt="">
+                    </div>
+                        <p class="p_tag2">Or prefix any GitLab, GitHub or Bitbucket URL with</p>
+                        <button class="btn5">gitpod.io/#</button>
+                    </div>
+                    <img src="./img/photone.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
